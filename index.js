@@ -27,7 +27,7 @@ function validateForm() {
     if(age == ""){
         alert("Age is required");
         return false;
-    }else if(age < 0){
+    }else if(age < 0 && age >99){
         alert("Age must be greater than 0");
         return false;
     }
