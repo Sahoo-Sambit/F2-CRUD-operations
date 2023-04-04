@@ -20,7 +20,7 @@ function validateForm() {
         alert("GPA is required");
         return false;
     }
-    else if(gpa < 0){
+    else if(gpa < 0 && gpa > 10){
         alert("Invalid GPA");
         return false;
     }
